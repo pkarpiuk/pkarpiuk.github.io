@@ -49,10 +49,14 @@ a { color: var(--accent); }
   border: 1px solid var(--border);
   border-radius: .75rem;
   padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .project h3 { margin: 0 0 .5rem; }
 .project p { margin: .5rem 0; }
+/* Description takes all spare height so tags, screenshots and links align across cards */
+.project h3 + p { flex-grow: 1; }
 
 .tags { display: flex; flex-wrap: wrap; gap: .4rem; margin: .75rem 0; padding: 0; list-style: none; }
 .tags li {
