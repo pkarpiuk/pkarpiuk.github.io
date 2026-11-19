@@ -1,0 +1,15 @@
+{
+  "projects": [
+    {
+      "name": "GitHub Stars Ranking",
+      "description": "Short description of the project. Replace me with a sentence or two about what it does and why it exists.",
+      "tags": ["Ruby", "GitHub API"],
+      "links": [
+        { "label": "Source", "url": "https://github.com/pkarpiuk/github-stars-ranking" }
+      ],
+      "screenshots": [
+        { "file": "imgs/github-stars-ranking.webp", "alt": "GitHub Stars Ranking screenshot" }
+      ]
+    }
+  ]
+}
