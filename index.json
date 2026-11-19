@@ -5,8 +5,8 @@
       "description": "A ranking of the 10,000 most-starred GitHub repositories, refreshed every week. See how repositories climb and fall, which are new, and how many stars they gained since an earlier ranking.",
       "tags": ["JavaScript", "Ruby", "GitHub API"],
       "links": [
-        { "label": "Source", "url": "https://github.com/pkarpiuk/github-stars-ranking" },
-        { "label": "Deployment", "url": "https://pkarpiuk.github.io/github-stars-ranking/" }
+        { "label": "GitHub", "url": "https://github.com/pkarpiuk/github-stars-ranking" },
+        { "label": "Live", "url": "https://pkarpiuk.github.io/github-stars-ranking/" }
       ],
       "screenshots": [
         { "file": "imgs/github-stars-ranking.webp", "alt": "GitHub Stars Ranking screenshot" }
@@ -17,8 +17,8 @@
       "description": "A ranking of most popular Google Chrome extensions",
       "tags": ["JavaScript"],
       "links": [
-        { "label": "Source", "url": "https://github.com/pkarpiuk/chrome-ext-ranking" },
-        { "label": "Deployment", "url": "https://chrome-ext-ranking.devlab4fun.workers.dev/" }
+        { "label": "GitHub", "url": "https://github.com/pkarpiuk/chrome-ext-ranking" },
+        { "label": "Live", "url": "https://chrome-ext-ranking.devlab4fun.workers.dev/" }
       ],
       "screenshots": [
         { "file": "imgs/chrome-ext-ranking.webp", "alt": "Chrome Extensions Ranking screenshot" }
