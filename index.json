@@ -11,6 +11,18 @@
       "screenshots": [
         { "file": "imgs/github-stars-ranking.webp", "alt": "GitHub Stars Ranking screenshot" }
       ]
+    },
+    {
+      "name": "Chrome Extensions Ranking",
+      "description": "A ranking of most popular Google Chrome extensions",
+      "tags": ["JavaScript"],
+      "links": [
+        { "label": "Source", "url": "https://github.com/pkarpiuk/chrome-ext-ranking" },
+        { "label": "Deployment", "url": "https://chrome-ext-ranking.devlab4fun.workers.dev/" }
+      ],
+      "screenshots": [
+        { "file": "imgs/chrome-ext-ranking.webp", "alt": "Chrome Extensions Ranking screenshot" }
+      ]
     }
   ]
 }
