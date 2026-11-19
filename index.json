@@ -2,10 +2,11 @@
   "projects": [
     {
       "name": "GitHub Stars Ranking",
-      "description": "Short description of the project. Replace me with a sentence or two about what it does and why it exists.",
-      "tags": ["Ruby", "GitHub API"],
+      "description": "A ranking of the 10,000 most-starred GitHub repositories, refreshed every week. See how repositories climb and fall, which are new, and how many stars they gained since an earlier ranking.",
+      "tags": ["JavaScript", "Ruby", "GitHub API"],
       "links": [
-        { "label": "Source", "url": "https://github.com/pkarpiuk/github-stars-ranking" }
+        { "label": "Source", "url": "https://github.com/pkarpiuk/github-stars-ranking" },
+        { "label": "Deployment", "url": "https://pkarpiuk.github.io/github-stars-ranking/" }
       ],
       "screenshots": [
         { "file": "imgs/github-stars-ranking.webp", "alt": "GitHub Stars Ranking screenshot" }

@@ -15,7 +15,7 @@ ROOT       = __dir__
 DATA_FILE  = File.join(ROOT, 'index.json')
 HTML_FILE  = File.join(ROOT, 'index.html')
 THUMBS_DIR = 'imgs/thumbs'
-THUMB_SIZE = '480x300'
+THUMB_SIZE = '960x600'
 BEGIN_MARK = '<!-- BEGIN SHOWCASE -->'
 END_MARK   = '<!-- END SHOWCASE -->'
 
@@ -77,7 +77,7 @@ def render_project(project, index)
   links = Array(project['links'])
   unless links.empty?
     out << %(        <p class="links">)
-    links.each { |l| out << %(          <a href="#{h l['url']}">#{h l['label']}</a>) }
+    links.each { |l| out << %(          <a class="link-#{slug(l['label'])}" href="#{h l['url']}">#{h l['label']}</a>) }
     out << %(        </p>)
   end
 

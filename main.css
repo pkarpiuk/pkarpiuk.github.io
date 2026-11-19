@@ -85,3 +85,13 @@ a { color: var(--accent); }
 .lightbox img { max-width: 100%; max-height: 100%; border-radius: .4rem; }
 
 .site-footer { padding-top: 3rem; padding-bottom: 2rem; color: var(--muted); font-size: .9rem; }
+
+/* Highlighted "Deployment" (live demo) link */
+.link-deployment {
+  padding: 0 .75rem;
+  border-radius: .4rem;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+}
+.link-deployment:hover { opacity: .85; }
