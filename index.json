@@ -27,7 +27,7 @@
     {
       "name": "Wikidomains",
       "description": "It transforms a Wikipedia domain (such as artificial intelligence, ancient Rome, or astrophysics) into a specific list of articles to track. It also provides a dashboard showing what is popular, what is gaining traction, what has been created recently, and where disputes are taking place.",
-      "tags": ["Golang", "Wikipedia", "Wikidata"],
+      "tags": ["Wikipedia", "Wikidata", "Golang", "JavaScript"],
       "links": [],
       "screenshots": [
         { "file": "imgs/wikidomains.webp", "alt": "Wikidomains screenshot" }
